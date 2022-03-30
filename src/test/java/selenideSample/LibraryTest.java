@@ -1,4 +1,4 @@
-package selenideSample;
+package selenidesample;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.*;
@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class LibraryTest {
 	@Test
-	public void testSomeLibraryMethod() {
+	public void ScreenTest() {
 		// Googleトップページ
 		// "selenide"を検索
 		open("https://www.google.co.jp/");
